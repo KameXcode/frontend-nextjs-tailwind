@@ -25,3 +25,4 @@ export function SingleService({title, text, titleBreak, learnMoreShadowColor}:Si
     </div>
     )
 }
+export default SingleService
