@@ -1,4 +1,3 @@
-import Image from "next/image"
 export function Gallery(){
    return(
    <div className="grid grid-cols-2 sm:flex w-[100%] ">
