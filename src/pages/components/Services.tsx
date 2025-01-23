@@ -1,11 +1,11 @@
-
+import Image from "next/image";
 export function Services(){
     return(
         <div className="sm:grid sm:grid-cols-2 w-full flex flex-col">
            
 
             <div className="h-[550px] sm:order-2 ">
-                <img src="assets/images/desktop/image-transform.jpg" alt="Ovo" className="w-full font-bold h-[550px]"/>
+                <Image src={"/assets/images/desktop/image-transform.jpg"} width={720} height={550} className="h-[550px] w-full font-bold"  alt="ovo"></Image>
             </div>
             <div className="h-[550px] flex flex-col items-center justify-center gap-[40px] sm:order-1"  id="transform">
                 <div className="flex flex-col gap-[20px] font">  
@@ -23,7 +23,7 @@ export function Services(){
                 </div>
             </div>
             <div className="h-[550px]  sm:order-3" id='taça'>
-                <img src="assets/images/desktop/image-stand-out.jpg" className="h-[550px] w-full"></img>
+                <Image src="/assets/images/desktop/image-stand-out.jpg" width={720} height={550} alt="taça"  className="h-[550px] w-full"></Image>
             </div>
             <div className="h-[550px] flex flex-col items-center justify-center gap-[40px] w-full sm:order-4" id="stand">
                 <div className="flex flex-col gap-[20px] font">  
