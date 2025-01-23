@@ -1,3 +1,4 @@
+import Image from "next/image"
 export function Testimonials(){
     return(
     <div className="flex flex-col items-center justify-center mt-[100px] h-[1450px] sm:h-[1000px]">
@@ -6,7 +7,7 @@ export function Testimonials(){
         </div>
         <div className="flex sm:flex-row flex-col justify-between gap-[40px] w-[70%]">
             <div className="flex flex-col items-center">
-                <img src="/assets/images/image-emily.jpg" alt=""  className="rounded-full "/>
+                <Image src="/assets/images/image-emily.jpg" width={100} height={100} alt="woman"  className="rounded-full "/>
                 <span className='text-center leading-relaxed text-gray-600 mt-[60px] font-bold'>
                     We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
                 </span>
@@ -18,7 +19,7 @@ export function Testimonials(){
                 </span>
             </div>
             <div className="flex flex-col items-center">
-            <img src="/assets/images/image-thomas.jpg" alt="" className="rounded-full"  />
+            <Image src="/assets/images/image-thomas.jpg" width={100} height={100}  alt="guy" className="rounded-full"  />
                 <span className='text-center leading-relaxed text-gray-600 mt-[60px] font-bold'>
          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
                 </span>
@@ -30,7 +31,7 @@ export function Testimonials(){
                 </span>
             </div>
             <div className="flex flex-col items-center">
-            <img src="/assets/images/image-jennie.jpg" alt="" className="rounded-full"  />
+            <Image  src="/assets/images/image-jennie.jpg" width={100} height={100} alt="girl" className="rounded-full"  />
                 <span className='text-center leading-relaxed text-gray-600 mt-[60px] font-bold'>
          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
                 </span>
